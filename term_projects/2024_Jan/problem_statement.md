@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Ticket System Integration with Discourse and Webhooks
 
 In this **software engineering project**, you'll enhance an existing **Ticketing application** created by students in the previous term([Sept 2023](/term_projects/2023_sept/problem_statement.md)). Instead of writing code from scratch, the goal is to **reuse and improve** the existing system, as many software solutions do to save time.

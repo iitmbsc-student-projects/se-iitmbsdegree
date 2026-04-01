@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # AI Agent for Academic Guidance
 
 The primary way in which learners engage with content in the **IITM BS degree program** is through the **SEEK portal**. This portal includes:  

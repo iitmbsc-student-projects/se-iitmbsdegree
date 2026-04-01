@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 *There are two problem statements from which the team can select one.*
 
 # Problem Statement 1: Design a Digital Solution for Senior Citizens

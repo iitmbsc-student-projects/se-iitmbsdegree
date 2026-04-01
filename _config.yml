@@ -1,9 +1,12 @@
 title: "SE — IITM BS Degree"
 description: "SE project documentation, curated readings, and resources from the IIT Madras BS Program"
-url: "https://iitmbsc-student-projects.github.io"
-baseurl: "/se-iitmbsdegree"
+url: "https://se-projects.study.iitm.ac.in"
+baseurl: ""
 
 remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
 
 color_scheme: light
 
@@ -22,3 +25,4 @@ back_to_top_text: "Back to top"
 exclude:
   - .github/
   - .claude/
+  - images/

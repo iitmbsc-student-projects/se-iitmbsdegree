@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Best Projects - Jan 2025
 
 After multiple levels of evaluation, the following projects have been recognized as the best in January 2025.

@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Effective Integration of Generative AI into Programming Learning Environments
 
 The **SEEK portal** is the primary learning platform for students in the **IITM BS degree program**. The portal contains:
@@ -46,4 +50,3 @@ You are encouraged to **leverage existing tools** for efficiency:
 - **GenAI Model APIs**: 
   - Use **open-source LLMs** like [Ollama](https://ollama.ai/) for AI-driven features.
   - Explore **free/open-source AI libraries** for chatbot interactions, auto-feedback, etc.
-

@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Tracking Student Progress in Software Projects
 
 In course projects such as the ones you have already done in **Application Development I and II**, it can be challenging for instructors to effectively track the progress of student projects, particularly in larger classes where multiple teams are working on different tasks.  

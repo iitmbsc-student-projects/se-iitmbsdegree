@@ -1,3 +1,7 @@
+---
+nav_exclude: true
+---
+
 # Online Support Ticket System for the IITM BS Degree Program
 
 The support team at the IITM BS degree program often gets overwhelmed with emails from students regarding queries and concerns. Your task is to create an **online support ticketing system** for the IITM BS degree program.
