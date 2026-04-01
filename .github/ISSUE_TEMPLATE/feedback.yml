@@ -1,0 +1,61 @@
+name: SE Project Feedback
+description: Share feedback on the project philosophy, workflow, problem statements, or specific student projects
+title: "[Feedback] "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: main-area
+    attributes:
+      label: Which aspect does your feedback relate to?
+      options:
+        - "01 — Project Philosophy"
+        - "02 — Project Workflow"
+        - "03 — Problem Statements"
+        - "04 — Specific student projects"
+        - "Overall / General"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type of feedback
+      options:
+        - "Something is unclear or confusing"
+        - "Something is incorrect or outdated"
+        - "A concept or step is missing"
+        - "A resource link is broken"
+        - "General suggestion"
+    validations:
+      required: true
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Your feedback
+      description: Be as specific as possible — what did you read, what did you expect, what confused you?
+      placeholder: "e.g. In the motivation, you have mentioned how the project helps different career paths. But I see few roles, like DevOps, SRE etc., missing ..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement (optional)
+      description: If you have a specific fix or addition in mind, describe it here.
+      placeholder: "e.g. It will be good to add testimonials from students on the learnings from the project..."
+    validations:
+      required: false
+
+  - type: dropdown
+    id: experience
+    attributes:
+      label: Your experience level
+      description: Helps us calibrate the feedback
+      options:
+        - "Complete beginner — first time seeing these concepts"
+        - "Some exposure — have used one or two of these ideas in my own projects"
+        - "Intermediate — have worked on 1-2 SE projects, but reviewing to understand gaps"
+        - "Expert - have worked in more than 3 SE projects and have experienced the entire SDLC"
+    validations:
+      required: true
