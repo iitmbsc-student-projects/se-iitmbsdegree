@@ -1,3 +1,8 @@
+---
+title: Contributing
+nav_order: 6
+---
+
 # Contributing to SE-IITMBSDEGREE
 
 Thank you for your interest in contributing! Whether you are an IITM BS student or a member of the broader software engineering community, your contributions help make this repository a better resource for everyone.

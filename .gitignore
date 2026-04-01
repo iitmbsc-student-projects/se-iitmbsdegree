@@ -50,6 +50,7 @@ CNAME
 # Local images/screenshots
 images/
 
+
 # Misc
 *.log
 *.bak
