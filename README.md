@@ -1,6 +1,6 @@
 # Software Engineering Project Documentation
 
-This documentation pertains to the **Software Engineering Course Project from the Indian Institute of Technology, Madras BS Program**. It provides a comprehensive guide to the structure, execution, and evaluation of the project, which is carried out during the course term.
+This documentation pertains to the **[Software Engineering Course](https://study.iitm.ac.in/ds/course_pages/BSCS3001.html) Project from the [Indian Institute of Technology, Madras BS Program](https://study.iitm.ac.in/ds)**. It provides a comprehensive guide to the structure, execution, and evaluation of the project, which is carried out during the course term.
 
 ## Overview
 
