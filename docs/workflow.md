@@ -1,3 +1,9 @@
+---
+title: Workflow
+parent: SE Course Project
+nav_order: 2
+---
+
 # End-to-End Workflow  
 
 ## Overview

@@ -1,0 +1,54 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Windows shortcuts
+*.lnk
+
+# Linux
+*~
+.directory
+
+# Jekyll / GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+Gemfile.lock
+
+# IDE and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+
+# Node (if any tooling is added later)
+node_modules/
+npm-debug.log*
+
+# Python (if any tooling is added later)
+__pycache__/
+*.pyc
+.env
+.venv/
+
+# CNAME (managed via GitHub settings)
+CNAME
+
+# Misc
+*.log
+*.bak
+*.tmp
+*.orig

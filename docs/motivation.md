@@ -1,3 +1,9 @@
+---
+title: Motivation
+parent: SE Course Project
+nav_order: 4
+---
+
 # Motivation for the SE Project
 
 While the project theme varies (e.g., academic guidance, e-commerce, productivity tools), the main learning outcome remains consistent: students experience building a complete web application from scratch within a team. This includes balancing technical, ethical, and user-centric decisions.

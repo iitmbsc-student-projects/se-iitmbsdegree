@@ -1,0 +1,36 @@
+name: Report a Broken Link
+description: Report a link that is no longer working
+title: "[Broken Link] "
+labels: ["broken-link"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: Which file contains the broken link?
+      placeholder: "e.g. readings/books.md"
+    validations:
+      required: true
+
+  - type: input
+    id: link
+    attributes:
+      label: The broken link URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: error
+    attributes:
+      label: What happens when you click the link?
+      placeholder: "e.g. 404 Not Found, page redirects to homepage"
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement link (optional)
+      placeholder: "https://..."
+    validations:
+      required: false

@@ -1,3 +1,9 @@
+---
+title: Support
+parent: SE Course Project
+nav_order: 5
+---
+
 # Resources Document – Software Engineering Project 
 
 Below are all the essential resources and tools that will support your journey through this project, including community forums, content links, calendar access, and tools to improve documentation and communication quality.
@@ -38,6 +44,8 @@ Helpful for understanding real-world software design patterns, architecture, and
 ---
 
 ## 7. Reference Material
+
+> For more SE resources (books, blogs, podcasts, tools), see the [Resources](../resources/) and [Readings](../readings/) sections.
 
 ### 1. Ace Integration with Web Application  
 **Session Date:** 14 June 2024  

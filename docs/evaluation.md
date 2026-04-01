@@ -1,3 +1,9 @@
+---
+title: Evaluation
+parent: SE Course Project
+nav_order: 3
+---
+
 # Project Evalaution
 
 The project is evaluated based on multiple parameters and through various evaluation methods.  

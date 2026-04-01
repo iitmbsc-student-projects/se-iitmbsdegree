@@ -1,3 +1,9 @@
+---
+title: FAQ
+parent: SE Course Project
+nav_order: 1
+---
+
 # FAQS
 
 ## General Questions

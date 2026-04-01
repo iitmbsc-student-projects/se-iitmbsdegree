@@ -1,0 +1,24 @@
+title: "SE — IITM BS Degree"
+description: "SE project documentation, curated readings, and resources from the IIT Madras BS Program"
+url: "https://iitmbsc-student-projects.github.io"
+baseurl: "/se-iitmbsdegree"
+
+remote_theme: just-the-docs/just-the-docs
+
+color_scheme: light
+
+aux_links:
+  "GitHub Repository":
+    - "https://github.com/iitmbsc-student-projects/se-iitmbsdegree"
+
+nav_enabled: true
+search_enabled: true
+
+footer_content: "Licensed under <a href=\"https://creativecommons.org/licenses/by-sa/4.0/\">CC BY-SA 4.0</a>. Contributions welcome!"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+exclude:
+  - .github/
+  - .claude/

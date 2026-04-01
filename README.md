@@ -1,69 +1,106 @@
-# Software Engineering Project Documentation
+# Software Engineering — IITM BS Degree
 
-This documentation pertains to the **[Software Engineering Course](https://study.iitm.ac.in/ds/course_pages/BSCS3001.html) Project from the [Indian Institute of Technology, Madras BS Program](https://study.iitm.ac.in/ds)**. It provides a comprehensive guide to the structure, execution, and evaluation of the project, which is carried out during the course term.
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 
-## Overview
+A community-driven collection of SE project documentation, curated readings, and resources from the [IIT Madras BS Program](https://study.iitm.ac.in/ds) [Software Engineering Course](https://study.iitm.ac.in/ds/course_pages/BSCS3001.html).
 
-This document outlines the essential aspects of the Software Engineering project, including workflows, guidelines, and evaluation criteria. It covers crucial project elements such as user requirements, interface design, scheduling, API development, testing, and final submission. The document also emphasizes the integration of modern technologies, project management practices, and adherence to academic integrity throughout the project lifecycle.
-The problem statement for the project may vary from term to term, allowing for flexibility and innovation while adhering to the fundamental principles of software engineering and project management.
+---
 
+## SE Course Project
 
-## Getting Started
+### Getting Started
 
-Explore the documentation:
-   - [FAQ](docs/FAQ.md) - Frequently Asked Questions
-   - [Workflow](docs/workflow.md) - Standard workflow for projects
-   - [Evaluation](docs/evaluation.md) - Guidelines for project evaluation
-   - [Motivation](docs/motivation.md) - Insights on project motivation
-   - [Support](docs/support.md) - Available support for project completion
+- [FAQ](docs/FAQ.md) — Frequently Asked Questions
+- [Workflow](docs/workflow.md) — Team formation, Agile methodology, milestones
+- [Evaluation](docs/evaluation.md) — Grading criteria and rubrics
+- [Motivation](docs/motivation.md) — Learning outcomes and career relevance
+- [Support](docs/support.md) — Tools, resources, and communication channels
+
+### Project Statements by Term
+
+- [Sept 2023](term_projects/2023_sept/problem_statement.md) · [Jan 2024](term_projects/2024_Jan/problem_statement.md) · [May 2024](term_projects/2024_may/problem_statement.md) · [Sept 2024](term_projects/2024_sept/problem_statement.md)
+- [Jan 2025](term_projects/2025_Jan/problem_statement.md) · [May 2025](term_projects/2025_may/problem_statement.md) · [Sept 2025](term_projects/2025_sept/problem_statement.md)
+
+### Best Projects
+
+Showcases of outstanding student work with demo videos and source code.
+
+- [May 2024](term_projects/2024_may/best_projects.md) · [Sept 2024](term_projects/2024_sept/best_projects.md) · [Jan 2025](term_projects/2025_Jan/best_projects.md) · [May 2025](term_projects/2025_may/best_projects.md) · [Sept 2025](term_projects/2025_sept/best_projects.md)
+
+---
+
+## Curated Readings
+
+Foundational books, academic papers, and in-depth articles for SE students and practitioners.
+
+- [Books](readings/books.md) — Essential SE books organized by topic and difficulty
+- [Papers](readings/papers.md) — Seminal and accessible academic papers
+- [Articles](readings/articles.md) — In-depth blog posts, essays, and tutorials
+
+---
+
+## Resources
+
+Newsletters, blogs, podcasts, and tools to stay current with software engineering.
+
+- [Newsletters](resources/newsletters.md) — Regular SE digests
+- [Blogs](resources/blogs.md) — Leading practitioners and organizations
+- [Podcasts](resources/podcasts.md) — SE podcasts for learning on the go
+- [Videos & Talks](resources/videos.md) — YouTube channels, conference talks, course sessions
+- [Tools & Platforms](resources/tools.md) — Useful tools for SE projects
+
+---
 
 ## Project Structure
 
 ```
-|__ docs/              # Documentation files
-|   ├── FAQ.md
-|   ├── Workflow.md
-|   ├── evaluation.md
-|   ├── motivation.md
-|   └── support.md
-|__ term_projects/     # Various term project files
-|   ├── 2023_sept/
-|   ├── 2024_Jan/
-|   ├── 2024_may/
-|   |── 2024_sept/
-|   └── 2025_jan/
-|__ README.md          # Project description and usage
+├── docs/                # Course project documentation
+│   ├── FAQ.md
+│   ├── workflow.md
+│   ├── evaluation.md
+│   ├── motivation.md
+│   └── support.md
+├── readings/            # Curated SE readings
+│   ├── books.md
+│   ├── papers.md
+│   └── articles.md
+├── resources/           # External SE resources
+│   ├── newsletters.md
+│   ├── blogs.md
+│   ├── podcasts.md
+│   ├── videos.md
+│   └── tools.md
+├── term_projects/       # Term-specific project files
+│   ├── 2023_sept/
+│   ├── 2024_Jan/
+│   ├── 2024_may/
+│   ├── 2024_sept/
+│   ├── 2025_Jan/
+│   ├── 2025_may/
+│   └── 2025_sept/
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+└── LICENSE
 ```
 
-## Workflow
-The End-to-End Workflow [document](docs/workflow.md) provides a comprehensive guide to team formation, role distribution, project management, and client interactions within the SE Project course. It follows an Agile methodology, outlining milestones and meeting protocols to ensure effective collaboration and real-world project experience. This structured approach aids both students and instructors in maintaining consistency and clarity throughout the project.
+---
 
+## Contributing
 
-## Project Statement for Recent Terms
-This section contains the project statements from recent academic terms.
+We welcome contributions from IITM BS students and the broader SE community! You can:
 
-- [Sept 2023](term_projects/2023_sept/problem_statement.md)
-- [Jan 2024](term_projects/2024_Jan/problem_statement.md)
-- [May 2024](term_projects/2024_may/problem_statement.md)
-- [Sept 2024](term_projects/2024_sept/problem_statement.md)
-- [Jan 2025](term_projects/2025_Jan/problem_statement.md)
-- [May 2025](term_projects/2025_may/problem_statement.md)
-- [Sept 2025](term_projects/2025_sept/problem_statement.md)
+- **Suggest a resource** via the [issue template](https://github.com/iitmbsc-student-projects/se-iitmbsdegree/issues/new?template=suggest-resource.yml)
+- **Submit a PR** to add or improve content
+- **Report a broken link** via the [issue template](https://github.com/iitmbsc-student-projects/se-iitmbsdegree/issues/new?template=report-broken-link.yml)
 
-## Outcomes
-The Outcomes section showcases the most outstanding projects from recent terms, highlighting innovative solutions and well-executed implementations. It includes the teams' code bases and demo presentations, serving as a benchmark for future projects.
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-- [2024 May Best Projects](term_projects/2024_may/best_projects.md)
-- [2024 Sept Best Projects](term_projects/2024_sept/best_projects.md) 
-- [2025 Jan Best Projects](term_projects/2025_Jan/best_projects.md) 
-- [2025 May Best Projects](term_projects/2025_may/best_projects.md)
-- [2025 Sept Best Projects](term_projects/2025_sept/best_projects.md)
+## Community
 
-## Usage
+- [Discussions](https://github.com/iitmbsc-student-projects/se-iitmbsdegree/discussions) — Ask questions, suggest resources, share your projects
+- [Feedback](https://github.com/iitmbsc-student-projects/se-iitmbsdegree/issues/new?template=feedback.yml) — Share feedback on the project
 
-- Navigate to the `docs/` directory to access detailed guidelines and FAQs.
-- Refer to the `term_projects/` directory for problem statements and best projects from different terms.
+## License
 
-## Contact
-
-For questions or feedback, please open an issue or join the discussion.
+This work is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/). See [LICENSE](LICENSE) for details.
