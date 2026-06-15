@@ -1,11 +1,12 @@
 services:
   jekyll:
-    image: jekyll/jekyll:4
-    command: jekyll serve --force_polling --livereload
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
     ports:
       - "4000:4000"
       - "35729:35729"
     volumes:
-      - .:/srv/jekyll
+      - .:/site
     environment:
       - JEKYLL_ENV=development

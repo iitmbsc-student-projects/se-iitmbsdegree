@@ -1,0 +1,27 @@
+// 1. Shrink the container for each list item
+.nav-list-item {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+// 2. Shrink the actual clickable link area
+.nav-list-link {
+    padding-top: 0.15rem !important;    // Theme default is usually ~0.5rem
+    padding-bottom: 0.15rem !important;
+    line-height: 1.2 !important;        // Tightens the text height
+    min-height: 0 !important;           // Prevents a minimum block height
+}
+
+// 3. Fix the "expand" button area (the little arrows for dropdowns)
+.nav-list-expander {
+    padding-top: 0.15rem !important;
+    padding-bottom: 0.15rem !important;
+    height: 1.5rem !important;          // Matches the new tighter link height
+}
+
+// 4. Tighten sub-menu indentation and spacing
+.nav-list .nav-list {
+    padding-left: 1rem !important;      // Adjusts horizontal nesting if needed
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}

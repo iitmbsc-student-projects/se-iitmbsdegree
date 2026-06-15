@@ -1,0 +1,19 @@
+# Local development overrides
+
+# Usage: bundle exec jekyll serve --config _config.yml,_config_dev.yml
+
+# Use gem-based theme instead of remote_theme (avoids GitHub API 404s locally)
+theme: just-the-docs
+remote_theme: ~
+plugins: []
+
+# This forces the theme to use your compiled CSS file
+# instead of the default "just-the-docs-default.css"
+layout:
+  css: "style"
+
+sass:
+  load_paths:
+    - _sass
+
+url: "http://localhost:4000"

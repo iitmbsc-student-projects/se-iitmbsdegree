@@ -3,10 +3,15 @@ description: "SE project documentation, curated readings, and resources from the
 url: "https://se-projects.study.iitm.ac.in"
 baseurl: ""
 
+# For GitHub Pages deployment (uses remote_theme)
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
+
+# For local development, run with:
+#   bundle exec jekyll serve --config _config.yml,_config_dev.yml
+# or use: docker compose up
 
 color_scheme: light
 
@@ -31,4 +36,6 @@ exclude:
   - images/
   - Gemfile
   - Gemfile.lock
+  - Dockerfile.dev
   - docker-compose.yml
+  - _config_dev.yml
